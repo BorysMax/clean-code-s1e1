@@ -50,20 +50,20 @@
 }
 
 .todo__list-item, 
-.main-page__h3 {
+.section__h3 {
   list-style: none;
 }
 
-.main-page__input,
-.main-page__btn,
-.main-page__btn-edit,
-.main-page__btn-delete{
+.section__input,
+.section__btn,
+.section__btn-edit,
+.section__btn-delete{
   outline: none;
 }
 
-.main-page__btn,
-.main-page__btn-edit,
-.main-page__btn-delete {
+.section__btn,
+.section__btn-edit,
+.section__btn-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -73,15 +73,15 @@
   cursor: pointer;
 }
 
-.main-page__btn:hover,
-.main-page__btn-edit:hover,
-.main-page__btn-delete:hover {
+.section__btn:hover,
+.section__btn-edit:hover,
+.section__btn-delete:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.main-page__h3,
-.main-page__label[for="new-task"] {
+.section__h3,
+.section__label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -91,7 +91,7 @@
   text-transform: uppercase;
 }
 
-.main-page__input[type="text"] {
+.section__input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -104,17 +104,17 @@
   color: #888;
 }
 
-.main-page__input[type="text"]:focus {
+.section__input[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
-.main-page__label[for="new-task"] {
+.section__label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-.main-page__input#new-task {
+.section__input#new-task {
   width: 318px;
 }
 
@@ -133,33 +133,33 @@
   vertical-align: middle;
 }
 
-.main-page__input .input-checkbox {
+.section__input .input-checkbox {
   margin: 0 10px;
 }
 
-.main-page__label .task {
+.section__label .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.main-page__input .task {
+.section__input .task {
   width: 226px;
 }
 
-.main-page__btn-img {
+.section__btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.main-page__btn-img:hover {
+.section__btn-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed__tasks .main-page__label {
+#completed__tasks .section__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -174,6 +174,6 @@
   width: 224px;
 }
 
-.edit-mode .main-page__label {
+.edit-mode .section__label {
   display: none;
 }
