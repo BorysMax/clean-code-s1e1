@@ -159,21 +159,21 @@
 }
 
 /* Completed */
-.todo__list#completed__tasks .main-page__label {
+#completed__tasks .main-page__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.todo__list .todo__list-item .task[type=text] {
+.todo__list-item .task[type=text] {
   display: none;
 }
 
-.todo__list .edit-mode .task[type=text] {
+.edit-mode .task[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.todo__list .edit-mode .main-page__label {
+.edit-mode .main-page__label {
   display: none;
 }
