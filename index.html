@@ -6,52 +6,56 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="common">
-  <div class="header">
+  <header class="header">
     <img class="header-img" src="./eisenhower-matrix.jpg">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
+  </header>
+  <main div class="centered-main-page-element">
+    <section id="topSectionForAddingElementToList">
       <label class="common-label" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task" class="common-input task" type="text">
         <button class="common-btn">Add</button>
       </div>
-    </p>
-    <h3 class="common-h3">Todo</h3>
-    <ul id="incompleteTasks" class="common-list">
-      <li class="common-list-item">
-        <input class="common-input input-checkbox" type="checkbox">
-        <label class="common-label task">Pay Bills</label>
-        <input class="common-input task" type="text">
-        <button class="common-btn edit" >Edit</button>
-        <button class="common-btn delete">
-          <img class="btn-delete-img" src="./remove.svg">
-        </button>
-      </li>
-      <li class="common-list-item editMode">
-        <input class="common-input input-checkbox" type="checkbox">
-        <label class="common-label task">Go Shopping</label>
-        <input class="common-input task" type="text" value="Go Shopping">
-        <button class="common-btn edit">Save</button>
-        <button class="common-btn delete">
-          <img class="btn-delete-img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-    <h3 class="common-h3">Completed</h3>
-    <ul id="completed-tasks" class="common-list">
-      <li class="common-list-item">
-        <input class="common-input input-checkbox" type="checkbox" checked>
-        <label class="common-label task">See the Doctor</label>
-        <input class="common-input task" type="text">
-        <button class="common-btn edit">Edit</button>
-        <button class="common-btn delete">
-          <img class="btn-delete-img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-  </div>
+    </section>
+    <section>
+      <h3 class="common-h3">Todo</h3>
+      <ul id="incompleteTasks" class="common-list">
+        <li class="common-list-item">
+          <input class="common-input input-checkbox" type="checkbox">
+          <label class="common-label task">Pay Bills</label>
+          <input class="common-input task" type="text">
+          <button class="common-btn edit" >Edit</button>
+          <button class="common-btn delete">
+            <img class="btn-delete-img" src="./remove.svg">
+          </button>
+        </li>
+        <li class="common-list-item editMode">
+          <input class="common-input input-checkbox" type="checkbox">
+          <label class="common-label task">Go Shopping</label>
+          <input class="common-input task" type="text" value="Go Shopping">
+          <button class="common-btn edit">Save</button>
+          <button class="common-btn delete">
+            <img class="btn-delete-img" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3 class="common-h3">Completed</h3>
+      <ul id="completed-tasks" class="common-list">
+        <li class="common-list-item">
+          <input class="common-input input-checkbox" type="checkbox" checked>
+          <label class="common-label task">See the Doctor</label>
+          <input class="common-input task" type="text">
+          <button class="common-btn edit">Edit</button>
+          <button class="common-btn delete">
+            <img class="btn-delete-img" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
