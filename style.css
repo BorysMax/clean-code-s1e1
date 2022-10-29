@@ -127,28 +127,28 @@
   vertical-align: middle;
 }
 
-.common-list-item > input[type="checkbox"] {
+.common-input .input-checkbox {
   margin: 0 10px;
 }
 
-.common-list-item > label {
+.common-label .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.common-list-item > input[type="text"] {
+.common-input .task {
   width: 226px;
 }
 
-.delete img {
+.button-delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.button-delete-img:hover {
   transform: rotateZ(0);
 }
 
@@ -159,15 +159,15 @@
 }
 
 /* Edit Task */
-.common-list .common-list-item input[type=text] {
+.common-list .common-list-item .task[type=text] {
   display: none;
 }
 
-.common-list .editMode input[type=text] {
+.common-list .editMode .task[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.common-list .editMode label {
+.common-list .editMode .common-label {
   display: none;
 }
